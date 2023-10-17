@@ -26,11 +26,12 @@ const config: DocsThemeConfig = {
   footer: {
     component: null,
   },
-  primaryHue: 225,
+  primaryHue: 200,
+  primarySaturation: 100,
   nextThemes: {
     defaultTheme: "light",
   },
-  darkMode: false,
+  darkMode: true,
   gitTimestamp: null,
   head: (
     <>

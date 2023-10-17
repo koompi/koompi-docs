@@ -10,4 +10,5 @@ module.exports = {
   ],
   theme: {},
   plugins: [],
+  darkMode: "class",
 };
