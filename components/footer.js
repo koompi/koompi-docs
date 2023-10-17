@@ -3,25 +3,9 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <div className="bg-[#f2f2f2] py-6">
+      <div className="bg-[#f2f2f2] dark:bg-slate-900 py-6">
         <div className="container ">
-          <div className="grid grid-cols-4  gap-4">
-            <div className="flex justify-center items-center gap-3">
-              <svg
-                width="25"
-                height="18"
-                viewBox="0 0 25 18"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M19.325.45H5.435C2.709.45.5 2.686.5 5.445v7.028c0 2.759 2.21 4.995 4.935 4.995h13.89c2.726 0 4.935-2.236 4.935-4.995V5.446c0-2.759-2.21-4.995-4.935-4.995Zm-3.337 8.851L9.49 12.438a.261.261 0 0 1-.373-.239V5.73a.26.26 0 0 1 .378-.235l6.498 3.332c.193.1.19.38-.006.474Z"
-                  fill="#000"
-                ></path>
-              </svg>
-              <span className="font-bold text-xl text-black">Youtube</span>
-            </div>
-
+          <div className="grid grid-cols-3 gap-4">
             <div className="flex justify-center items-center gap-3">
               <svg
                 width="27"
@@ -37,10 +21,12 @@ export default function Footer() {
                   fill="#000"
                 ></path>
               </svg>
-              <span className="font-bold text-xl text-black">Github</span>
+              <span className="font-bold text-sm md:text-sm lg:text-xl text-black dark:text-sky-500">
+                Github
+              </span>
             </div>
 
-            <div className="flex justify-center items-center gap-3">
+            <div className="flex justify-center items-center gap-3 ">
               <svg
                 width="24"
                 height="20"
@@ -55,7 +41,9 @@ export default function Footer() {
                   fill="#000"
                 ></path>
               </svg>
-              <span className="font-bold text-xl text-black">Twitter</span>
+              <span className="font-bold text-sm md:text-sm lg:text-xl text-black dark:text-sky-500">
+                Twitter
+              </span>
             </div>
             <div className="flex justify-center items-center gap-3">
               <svg
@@ -70,50 +58,104 @@ export default function Footer() {
                   fill="#000"
                 ></path>
               </svg>
-              <span className="font-bold text-xl text-black">Telegram</span>
+              <span className="font-bold text-sm md:text-sm lg:text-xl text-black dark:text-sky-500">
+                Telegram
+              </span>
             </div>
           </div>
         </div>
       </div>
-      <div className="bg-white pt-12 footer">
-        <div className="container">
-          <div className="grid grid-cols-4  gap-4">
-            <div>
-              <h3 className="font-bold text-lg mb-4">Getting Started</h3>
-              <ul>
-                <li>Fuse Network</li>
-                <li>Mobile Stack</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-lg mb-4">Under the hood</h3>
-              <ul>
-                <li>Fuse Network</li>
-                <li>Mobile Stack</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-lg mb-4">General</h3>
-              <ul>
-                <li>Fuse Network</li>
-                <li>Mobile Stack</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-lg mb-4">
-                Subscribe to Newsletter
-              </h3>
-              <ul>
-                <li>Fuse Network</li>
-                <li>Mobile Stack</li>
-              </ul>
+
+      <footer class="px-3 pt-12 lg:px-9 border-t-2 bg-gray-50 dark:bg-zinc-900">
+        <div class="container grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="sm:col-span-2">
+            <a href="#" class="inline-flex items-center">
+              <img src="/images/logo.png" alt="logo" class="w-36" />
+            </a>
+            <div class="mt-6 lg:max-w-xl">
+              <p class="text-sm text-gray-800 dark:text-gray-200">
+                Selendra is a multi-chains nominated proof-of-stake network
+                built with the Polkadot Substrate Blockchain framework to
+                facilitate micro-economic transactions, building decentralized
+                applications and trustless organization.
+              </p>
             </div>
           </div>
-          <div className="text-center mt-10 pb-4">
-            © {new Date().getFullYear()} <b>Selendra</b>. All Rights Reserved.
+
+          <div class="flex flex-col gap-2 text-sm">
+            <p class="text-base font-bold tracking-wide text-gray-900 dark:text-sky-500">
+              Getting Started
+            </p>
+            <a href="#">Selendra Network</a>
+            <a href="#">Wallet</a>
+            <p class="text-base font-bold tracking-wide text-gray-900 dark:text-sky-500">
+              Under the hood
+            </p>
+            <a href="#">Selendra Network</a>
+            <a href="#">Wallet</a>
+            <p class="text-base font-bold tracking-wide text-gray-900 dark:text-sky-500">
+              General
+            </p>
+            <a href="#">Selendra Network</a>
+            <a href="#">Wallet</a>
+          </div>
+
+          <div>
+            <p class="text-base font-bold tracking-wide text-gray-900 dark:text-sky-500">
+              WALLET IS ALSO AVAILABLE ON
+            </p>
+            <div class="grid grid-cols-2 items-center px-2">
+              <a href="#" class="w-full min-w-xl">
+                <img
+                  src="/images/play-store.webp"
+                  alt="Playstore Button"
+                  class="w-full"
+                />
+              </a>
+              <a class="w-full min-w-xl" href="#">
+                <img
+                  src="/images/app-store.webp"
+                  alt="Youtube Button"
+                  class="w-4/5"
+                />
+              </a>
+            </div>
+            <p class="text-base font-bold tracking-wide text-gray-900 dark:text-sky-500">
+              Contacts
+            </p>
+            <div class="flex">
+              <p class="mr-1 text-gray-800 dark:text-sky-500">Email:</p>
+              <a href="#" title="send email">
+                admin@company.com
+              </a>
+            </div>
           </div>
         </div>
-      </div>
+
+        <div class=" container flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
+          <p class="text-sm text-gray-600">
+            © Copyright 2023 Company. All rights reserved.
+          </p>
+          <ul class="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
+            <li>
+              <a
+                href="#"
+                class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+              >
+                Privacy &amp; Cookies Policy
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+              >
+                Disclaimer
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </>
   );
 }

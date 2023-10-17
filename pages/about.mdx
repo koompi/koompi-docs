@@ -6,9 +6,9 @@ import explore from "../data/_explore.json"
 export default function HelloWorld() {
   return (
     <div className="container">
-      <div className="flex justify-between items-center gap-6 py-20">
-        <div>
-          <div className="text-4xl font-extrabold">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-between items-center gap-6 py-20">
+        <div className="col-span-1">
+          <div className="text-xl md:text-2xl lg:text-4xl font-extrabold">
             Welcome to the Fuse docs
           </div>
           <p>
@@ -21,13 +21,13 @@ export default function HelloWorld() {
         </div>
         <img
           src="https://docs.fuse.io/img/home-picture.png"
-          className="w-[509px] h-[267px] object-fill"
+          className="w-[509px] h-[267px] object-fill col-span-1"
           alt=""
         />
       </div>
 
-      <h3>Get Started</h3>
-      <div className="grid grid-cols-2 gap-4 mt-8">
+      <p className="text-lg md:text-xl lg:text-2xl font-bold">Get Started</p>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-8">
         {getStarted.map((res)=>(
           <Card key={res?.id} res={res}/>
         ))}
@@ -36,8 +36,8 @@ export default function HelloWorld() {
       <br />
       <br />
 
-      <h3>Explore our APIs</h3>
-      <div className="grid grid-cols-3 gap-4 mt-8">
+      <p className="text-lg md:text-xl lg:text-2xl font-bold">Explore our APIs</p>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
         {explore.map((res)=>(
           <Card key={res?.id} res={res}/>
         ))}

@@ -12,7 +12,9 @@ export default function Card(props) {
     >
       <img src={res?.thumbnail} alt={res?.title} className="w-full" />
       <div className="flex items-center gap-1">
-        <h3 className="font-bold text-xl my-4">{res?.title}</h3>
+        <h3 className="font-bold text-md md:text-md lg:text-xl  my-4">
+          {res?.title}
+        </h3>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -26,7 +28,9 @@ export default function Card(props) {
           />
         </svg>
       </div>
-      <p>{res?.desc}</p>
+      <p className="text-sm dark:opacity-50 md:text-sm lg:text-md">
+        {res?.desc}
+      </p>
     </div>
   );
 }
