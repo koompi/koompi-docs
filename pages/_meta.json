@@ -6,13 +6,16 @@
       "layout": "full"
     }
   },
-  "docs": {
-    "title": "Document",
+  "documents": {
+    "title": "Documents",
     "type": "page",
     "href": "/documents"
   },
   "about": {
     "title": "About",
-    "type": "page"
+    "type": "page",
+    "theme": {
+      "layout": "full"
+    }
   }
 }

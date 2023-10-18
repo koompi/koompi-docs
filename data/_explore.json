@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "thumbnail": "/images/new.svg",
+    "title": "Quick Start",
+    "desc": "Find links to valuable resources and websites that will bring you up to speed on building on Selendra.",
+    "link": "/documents"
+  },
+  {
+    "id": "2",
+    "thumbnail": "/images/new.svg",
+    "title": "Selendra Basics",
+    "desc": "Learn all the basics about the Fuse network, including network details, wallets, bridges and more.",
+    "link": "/documents"
+  },
+  {
+    "id": "3",
+    "thumbnail": "/images/new.svg",
+    "title": "Bitriel SDK",
+    "desc": "Develop seamless UX with Fuse SDK on Fuse network, leveraging account abstraction, gasless transactions, and more.",
+    "link": "/documents"
+  },
+  {
+    "id": "4",
+    "thumbnail": "/images/new.svg",
+    "title": "Selendra Guides",
+    "desc": "Discover everything you need to know about Fuse v2 and how we're revolutionizing various industries with web3 technology.",
+    "link": "/documents"
+  },
+  {
+    "id": "5",
+    "thumbnail": "/images/new.svg",
+    "title": "Bitriel SDK",
+    "desc": "Develop seamless UX with Fuse SDK on Fuse network, leveraging account abstraction, gasless transactions, and more.",
+    "link": "/documents"
+  },
+  {
+    "id": "6",
+    "thumbnail": "/images/new.svg",
+    "title": "Selendra Guides",
+    "desc": "Discover everything you need to know about Fuse v2 and how we're revolutionizing various industries with web3 technology.",
+    "link": "/documents"
+  }
+]

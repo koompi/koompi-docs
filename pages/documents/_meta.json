@@ -1,9 +1,10 @@
 {
-  "index": {
-    "title": "Intro"
-  },
-  "about": "About",
-  "selendra-sdk": {
+  "index": "Quick Start",
+  "overview": "Overview",
+  "get-started": {
     "title": "Getting Started"
+  },
+  "seledra-sdk": {
+    "title": "Selendra SDK"
   }
 }
